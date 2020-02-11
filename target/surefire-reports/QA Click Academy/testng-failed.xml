@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [QA Click Academy]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Academy.getListeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Verify Login Access(failed)" verbose="0">
+    <classes>
+      <class name="Academy.VerifyLoginAccess">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initilizaBrowser"/>
+          <include name="login" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- Academy.VerifyLoginAccess -->
+    </classes>
+  </test> <!-- Verify Login Access(failed) -->
+</suite> <!-- Failed suite [QA Click Academy] -->

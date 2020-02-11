@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 66.029 s <<< FAILURE! - in TestSuite
+Academy.VerifyLoginAccess.login  Time elapsed: 20.226 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid email or password123.] but found [Invalid email or password.]
+	at Academy.VerifyLoginAccess.login(VerifyLoginAccess.java:37)
+
+Academy.VerifyLoginAccess.login  Time elapsed: 11.513 s  <<< FAILURE!
+java.lang.AssertionError: expected [Invalid email or password123.] but found [Invalid email or password.]
+	at Academy.VerifyLoginAccess.login(VerifyLoginAccess.java:37)
+

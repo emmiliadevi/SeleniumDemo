@@ -1,0 +1,6 @@
+17:53:07.144 [main] INFO  Academy.HomePageTest - Successfully tried login using method from base
+18:16:58.106 [main] INFO  Academy.VerifyLoginAccess - Browser successfully initialized
+18:17:05.896 [main] INFO  Academy.VerifyLoginAccess - Click login link
+18:17:08.148 [main] INFO  Academy.VerifyLoginAccess - Successfully tested login combination
+18:17:13.236 [main] INFO  Academy.VerifyLoginAccess - Click login link
+18:17:15.368 [main] INFO  Academy.VerifyLoginAccess - Successfully tested login combination
